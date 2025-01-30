@@ -1,0 +1,2 @@
+
+			{0} = serializedObject.FindProperty ("{0}");

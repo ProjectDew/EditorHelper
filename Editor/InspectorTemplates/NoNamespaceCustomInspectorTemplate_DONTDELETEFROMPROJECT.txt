@@ -1,0 +1,23 @@
+using UnityEngine;
+using UnityEditor;
+using EditorHelper;
+
+[CustomEditor (typeof ({1})){2}]
+public class {1}Inspector : Editor
+{{3}
+{4}
+
+	private void OnEnable ()
+	{{5}
+{6}
+	}
+
+	public override void OnInspectorGUI ()
+	{
+		serializedObject.Update ();
+
+		GUILayout.Space (10);
+{7}{8}
+		serializedObject.ApplyModifiedProperties ();
+	}
+}
