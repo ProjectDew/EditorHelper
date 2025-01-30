@@ -63,5 +63,5 @@ Some helpful utilities for the Unity Editor.
   - ***Vector3***: returns the Vector3 value at the given index of an array SerializedProperty.
   - ***Vector4***: returns the Vector4 value at the given index of an array SerializedProperty.
   - ***BoxedValue***: returns the boxed value at the given index of an array SerializedProperty.
-  - ***Set (23 overloads)***: assings the desired value to the element at the given index of an array SerializedProperty.
-  - ***SetBoxedValue***: assings the desired boxed value to the element at the given index of an array SerializedProperty.
+  - ***Set (23 overloads)***: assigns the desired value to the element at the given index of an array SerializedProperty.
+  - ***SetBoxedValue***: assigns the desired boxed value to the element at the given index of an array SerializedProperty.
